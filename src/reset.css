@@ -1,0 +1,131 @@
+/* Reset margins, padding, and borders */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Set base font size and line height */
+html {
+  font-size: 100%; /* 16px */
+  line-height: 1.5;
+}
+
+/* Set default styles for body */
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default text decoration and color from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default table styles */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set image display and remove border */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+/* Set default styles for form elements */
+input,
+button,
+textarea,
+select {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* Remove default styles for button elements */
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+/* Remove default styles for fieldset and legend */
+fieldset {
+  border: 0;
+  padding: 0;
+}
+legend {
+  padding: 0;
+}
+
+/* Set default box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Set default line-height */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+/* Set default vertical alignment */
+img,
+svg,
+iframe,
+embed,
+object {
+  vertical-align: middle;
+}
+
+/* Set default text alignment */
+body {
+  text-align: left;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Ensure consistent border-box for all elements */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

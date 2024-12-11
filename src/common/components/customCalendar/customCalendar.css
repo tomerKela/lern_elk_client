@@ -1,0 +1,19 @@
+@media (max-width: 1200px) {
+    .testy {
+      width: 120px!important;
+    }
+  }
+  @media (max-width: 960px) {
+    .testy {
+      width: 60px!important;
+      color: red;
+      background-color: red;
+    }
+  }
+  @media (max-width: 600px) {
+    .testy {
+      width: 20px!important;
+      color: blue;
+      background-color: blue;
+    }
+  }
